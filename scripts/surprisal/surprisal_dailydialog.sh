@@ -19,10 +19,12 @@ source "$(conda info --base)/etc/profile.d/conda.sh"
 conda deactivate
 conda activate stat-gen-eval-3.10
 
-ROOT="${HOME}/projects/surprise"
+ROOT="${HOME}/information-value"
+
 cd "${ROOT}" || exit
 
-MODEL_DIR="/scratch-shared/mariog/surprise/models"
+CACHE_DIR="/../information-value/.cache"
+MODEL_DIR="/../information-value/models"
 
 for DATASET in "dailydialog";
 do

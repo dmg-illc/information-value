@@ -21,7 +21,7 @@ conda activate stat-gen-eval-3.10
 
 DATASET="brown"
 
-ROOT="${HOME}/projects/surprise"
+ROOT="${HOME}/information-value"
 DATA_PATH="${ROOT}/data/psychometric/RTs/${DATASET}_rt.jsonl"
 
 cd "${ROOT}" || exit

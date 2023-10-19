@@ -22,12 +22,12 @@ conda deactivate
 conda activate stat-gen-eval-3.10
 
 
-ROOT="${HOME}/projects/surprise"
+ROOT="${HOME}/information-value"
 
 cd "${ROOT}" || exit
 
-CACHE_DIR="/scratch-shared/mariog/surprise/.cache"
-OUTPUT_DIR_ROOT="/scratch-shared/mariog/surprise/models"
+CACHE_DIR="/../information-value/.cache"
+OUTPUT_DIR_ROOT="/../information-value/models"
 DATASET="dailydialog"
 TRAIN_PATH="${ROOT}/data/corpora/${DATASET}/train/${DATASET}_train_BOS_EOS_blender.txt"
 VAL_PATH="${ROOT}/data/corpora/${DATASET}/val/${DATASET}_validation_BOS_EOS_blender.txt"

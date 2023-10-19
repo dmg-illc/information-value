@@ -22,12 +22,12 @@ conda deactivate
 conda activate stat-gen-eval-3.10
 
 
-ROOT="${HOME}/projects/surprise"
+ROOT="${HOME}/information-value"
 
 cd "${ROOT}" || exit
 
+CACHE_DIR="/../information-value/.cache"
 MODEL="gpt2"
-CACHE_DIR="/scratch-shared/jbaan/stat-gen-eval/.cache"
 DATASET_DIR="${ROOT}/data/corpora/switchboard/test"
 
 for MODEL in "gpt2" "gpt2-medium" "gpt2-large" "gpt2-xl" \

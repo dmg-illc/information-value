@@ -27,11 +27,11 @@ N_SAMPLES_PER_RUN=25
 N_RUNS=4
 MAX_LENGTH=41
 
-ROOT="${HOME}/projects/surprise"
+ROOT="${HOME}/information-value"
 DATA_PATH="${ROOT}/data/psychometric/${DATASET}/${FNAME}.jsonl"
 cd ${ROOT}
 
-for MODEL_NAME in "/scratch-shared/mariog/surprise/models/gpt2/dailydialog/" "/scratch-shared/mariog/surprise/models/microsoft/DialoGPT-small/dailydialog/" "/scratch-shared/mariog/surprise/models/facebook/opt-125m/dailydialog/";
+for MODEL_NAME in "/../information-value/models/gpt2/dailydialog/" "/../information-value/models/microsoft/DialoGPT-small/dailydialog/" "/../infomration-value/models/facebook/opt-125m/dailydialog/";
 do
   OUT_DIR="${ROOT}/data/alternatives/${DATASET}/${MODEL_NAME}"
   python3 code/generate_alternatives.py \

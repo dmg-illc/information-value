@@ -19,19 +19,11 @@
 # conda deactivate
 # conda activate stat-gen-eval-3.10
 
-# ROOT="${HOME}/projects/surprise"
-# cd "${ROOT}" || exit
+ROOT="${HOME}/information-value"
 
-# SARENNE
-source /disk/scratch/swallbridge/miniconda3/bin/activate utt_pred 
-python --version
+cd "${ROOT}" || exit
 
-# export TRANSFORMERS_OFFLINE=1
-export PIP_DOWNLOAD_CACHE=/disk/scratch/swallbridge/BERT_FP/temp_cache
-export TORCH_HOME=/disk/scratch/swallbridge/BERT_FP/temp_cache
-export TRANSFORMERS_CACHE=/disk/scratch/swallbridge/BERT_FP/temp_cache
-
-ROOT="/disk/scratch/swallbridge/utterance-predictability"
+CACHE_DIR="/../information-value/.cache"
 
 for MODEL_NAME in "gpt2" "EleutherAI/gpt-neo-125m" "facebook/opt-125m" "gpt2-medium" "gpt2-large" "EleutherAI/gpt-neo-1.3B" "facebook/opt-1.3b" "facebook/opt-350m";
 do

@@ -70,5 +70,5 @@ if __name__ == "__main__":
     #     )
     # )
     bll2018_to_jsonl(
-        input_path=Path("/Users/mario/code/surprise/data/psychometric/BLL2018/processed_ratings.csv")
+        input_path=Path("/../information-value/data/psychometric/BLL2018/processed_ratings.csv")
     )

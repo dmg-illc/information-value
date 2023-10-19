@@ -19,7 +19,7 @@ source "$(conda info --base)/etc/profile.d/conda.sh"
 conda deactivate
 conda activate stat-gen-eval-3.10
 
-ROOT="${HOME}/projects/surprise"
+ROOT="${HOME}/information-value"
 cd "${ROOT}" || exit
 
 python3 code/notebooks/surprise_ppo/surprise_ppo_clasp.py \

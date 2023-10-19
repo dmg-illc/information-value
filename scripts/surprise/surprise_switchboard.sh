@@ -22,7 +22,7 @@ conda activate stat-gen-eval-3.10
 FNAME="switchboard_results_is"
 DATASET="switchboard"
 
-ROOT="${HOME}/projects/surprise"
+ROOT="${HOME}/information-value"
 DATA_PATH="${ROOT}/data/psychometric/${DATASET}/${FNAME}.jsonl"
 
 cd "${ROOT}" || exit

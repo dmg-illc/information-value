@@ -27,7 +27,7 @@ N_SAMPLES_PER_RUN=2
 N_RUNS=10
 MAX_LENGTH=86
 
-ROOT="${HOME}/projects/surprise"
+ROOT="${HOME}/information-value"
 DATA_PATH="${ROOT}/data/psychometric/${DATASET}/${FNAME}.jsonl"
 cd ${ROOT}
 

@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, BlenderbotTokenizer
 
 if __name__ == "__main__":
     # Path to save the txt files
-    output_path = "/Users/mario/code/surprise/data/corpora/dailydialog"
+    output_path = "../information-value/data/corpora/dailydialog"
 
     # Load dataset
     dataset = load_dataset("daily_dialog")

@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, BlenderbotTokenizer
 
 if __name__ == "__main__":
     # Path to save the txt files
-    output_path = "/Users/mario/code/surprise/data/corpora/switchboard"
+    output_path = "/../information-value/data/corpora/switchboard"
 
     # Prepare for different formattings
     dialogpt_tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     for data_split in ["train", "validation", "test"]:
         with open(
-            f"/Users/mario/code/surprise/data/corpora/switchboard/wts_{data_split}_nxt.pkl",
+            f"/../information-value/data/corpora/switchboard/wts_{data_split}_nxt.pkl",
             "rb",
         ) as f:
             dataset = pickle.load(f)

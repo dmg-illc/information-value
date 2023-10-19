@@ -26,7 +26,7 @@ MODEL_NAME="gpt2"  #"microsoft/DialoGPT-medium" # distilgpt2, gpt2, gpt2-medium,
 N_SAMPLES=1000
 MAX_LENGTH=41
 
-ROOT="${HOME}/projects/surprise"
+ROOT="${HOME}/information-value"
 DATA_PATH="${ROOT}/data/${DATASET}/${FNAME}.jsonl"
 OUT_PATH="${ROOT}/data/${DATASET}/${DATASET}_${MODEL_NAME}_${N_SAMPLES}samples.jsonl"
 
