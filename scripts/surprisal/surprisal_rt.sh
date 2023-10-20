@@ -23,7 +23,7 @@ ROOT="${HOME}/information-value"
 cd "${ROOT}" || exit
 for MODEL_NAME in "gpt2" "EleutherAI/gpt-neo-125m" "facebook/opt-125m" "gpt2-medium" "gpt2-large" "EleutherAI/gpt-neo-1.3B" "facebook/opt-1.3b" "facebook/opt-350m";
   do
-  for DATASET in "provo" "ns" "brown";
+  for DATASET in "provo" "brown";
     do 
     DATA_PATH="${ROOT}/data/psychometric/RTs/${DATASET}_rt.jsonl"
     OUT_DIR="${ROOT}/data/surprisal/${DATASET}/${MODEL_NAME}"

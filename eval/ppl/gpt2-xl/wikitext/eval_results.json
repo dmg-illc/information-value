@@ -1,9 +1,0 @@
-{
-    "eval_accuracy": 0.459841320315475,
-    "eval_loss": 2.7756807804107666,
-    "eval_runtime": 63.4409,
-    "eval_samples": 249,
-    "eval_samples_per_second": 3.925,
-    "eval_steps_per_second": 0.252,
-    "perplexity": 16.049549496220266
-}
