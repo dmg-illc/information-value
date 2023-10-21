@@ -6,3 +6,4 @@ Mario Giulianelli, Sarenne Wallbridge, and Raquel Fernández
 
 We provide the code for each set of experiments in the paper (see `code/notebooks`), as well as for generating the alternative sets used throughout the paper (`scripts/generate`).  The alternatives themselves consist of 1.3M generations; we publish them [here](https://doi.org/10.5281/zenodo.10006413).  
 
+We're working on making this repository more user-friendly. Should you have any questions in the meantime, please reach out to m.giulianelli@uva.nl and s1301730@ed.ac.uk.
