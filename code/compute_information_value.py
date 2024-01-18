@@ -207,7 +207,6 @@ def distances_to_surprise(distances, aggregation_func):
     return {k: aggregation_func(v) for k, v in distances.items()}
 
 
-# def compute_predictability(df, n_samples, max_len_samples):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--n_samples", type=int, default=10)
